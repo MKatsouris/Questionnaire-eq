@@ -11,10 +11,11 @@
     padding-top: 10%;
 }
 .image{
-    height: 100px;
+    /*height: 100px;
     width: auto;
     position: relative;
-    right: 300px;
+    right: 300px;*/
+    max-width: 100%;
 }
 .btn{
     background-color: olivedrab;
@@ -33,19 +34,26 @@
     padding-bottom: 800px;
 }
 .txt{
-    padding-right: 800px;
-    font-size: large;
+    font-size: 35px;
 
 }
 .text{
-    padding-left: 50%;
+    /*padding-left: 50%;
     padding-right: 50%;
-    padding-top: 20%;
+    padding-top: 20%;*/
     font-size: 25px;
 }
-.checkbox{
-    width: 80px;
-    height: 40px;
-    margin-right: 110%;
 
+.btns
+{
+    background-color: olivedrab;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    display: grid;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
 }
